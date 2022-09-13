@@ -1,0 +1,19 @@
+xquery version "1.0-ml";
+declare function local:utcdatetime($datetime as xs:dateTime?) as xs:dateTime?
+{
+let $utc := ($datetime)-(xs:dayTimeDuration("PT5H30M"))
+return $utc
+};
+
+let $currDateTime := xs:dateTime(fn:current-dateTime())
+return ("CurrentTime:",$currDateTime, "UTC Time:", local:utcdatetime($currDateTime))
+
+-------------------------------------------------------------------------------------------------
+
+Returned sequence of 4 items in 0.4846 ms. (-0.1805 ms. compared to previous run)
+
+CurrentTime:
+2022-09-13T21:53:43.9868797+05:30
+
+UTC Time:
+2022-09-13T16:23:43.9868797+05:30

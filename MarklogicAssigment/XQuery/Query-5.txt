@@ -1,0 +1,53 @@
+xquery version "1.0-ml";
+<AllEquipmentTypes>
+{
+for $doc in fn:collection("Equipments")/Equipments/EquipmentDetails
+return $doc/EquipmentType
+}
+</AllEquipmentTypes>,
+<TotalCount>{fn:count(
+for $doc in fn:collection("Equipments")/Equipments/EquipmentDetails
+return $doc/EquipmentType)}
+</TotalCount>
+
+------------------------------------------------------------------------------------------
+
+Returned sequence of 2 items in 0.8660 ms. (+0.1676 ms. compared to previous run)
+element as 
+XML
+<AllEquipmentTypes>
+<EquipmentType>Rollers</EquipmentType>
+<EquipmentType>Excavators</EquipmentType>
+<EquipmentType>Rollers</EquipmentType>
+<EquipmentType>Excavators</EquipmentType>
+<EquipmentType>Scrappers</EquipmentType>
+<EquipmentType>Rollers</EquipmentType>
+<EquipmentType>Scrappers</EquipmentType>
+<EquipmentType>Rollers</EquipmentType>
+<EquipmentType>Excavators</EquipmentType>
+<EquipmentType>Excavators</EquipmentType>
+<EquipmentType>Rollers</EquipmentType>
+<EquipmentType>Scrappers</EquipmentType>
+<EquipmentType>Scrappers</EquipmentType>
+<EquipmentType>Excavators</EquipmentType>
+<EquipmentType>Rollers</EquipmentType>
+<EquipmentType>Excavators</EquipmentType>
+<EquipmentType>Scrappers</EquipmentType>
+<EquipmentType>Excavators</EquipmentType>
+<EquipmentType>Rollers</EquipmentType>
+<EquipmentType>Scrappers</EquipmentType>
+<EquipmentType>Rollers</EquipmentType>
+<EquipmentType>Scrappers</EquipmentType>
+<EquipmentType>Excavators</EquipmentType>
+<EquipmentType>Excavators</EquipmentType>
+<EquipmentType>Rollers</EquipmentType>
+<EquipmentType>Scrappers</EquipmentType>
+<EquipmentType>Excavators</EquipmentType>
+<EquipmentType>Rollers</EquipmentType>
+<EquipmentType>Scrappers</EquipmentType>
+<EquipmentType>Rollers</EquipmentType>
+<EquipmentType>Excavators</EquipmentType>
+</AllEquipmentTypes>
+element as 
+XML
+<TotalCount>31</TotalCount>

@@ -1,0 +1,13 @@
+xquery version "1.0-ml";
+declare namespace dir = "http://marklogic.com/xdmp/directory";
+for $doc in xdmp:filesystem-directory("C:\Users\Varun_B\OneDrive - Itorizon\Desktop\Assignment Topics\MarklogicAssigment\XmlFiles")//dir:entry
+
+return xdmp:document-load($doc//dir:pathname, 
+<options xmlns="xdmp:document-load">
+<uri>{fn:string($doc//dir:filename)}</uri>
+<collections>
+<collection>Equipments</collection>
+</collections>
+</options>
+)
+

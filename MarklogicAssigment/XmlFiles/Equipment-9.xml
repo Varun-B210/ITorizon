@@ -1,0 +1,23 @@
+<?xml version ="1.0"?>
+<Equipments>
+<Company>QCOMP</Company>
+<BusinessUnit>QCOMP-202</BusinessUnit>
+<EquipmentDetails>
+	<EquipmentType>Scrappers</EquipmentType>
+	<Status>Available</Status>
+	<Quantity>430</Quantity>
+	<Duration>48Hrs</Duration>
+	<AllocatedQuantity>260</AllocatedQuantity>
+	<EquipmentStartDateTime>2022-07-19</EquipmentStartDateTime>
+	<EquipmentEndDateTime>2022-07-30</EquipmentEndDateTime>
+</EquipmentDetails>
+<EquipmentDetails>
+	<EquipmentType>Excavators</EquipmentType>
+	<Status>New</Status>
+	<Quantity>475</Quantity>
+	<Duration>45Hrs</Duration>
+	<AllocatedQuantity>290</AllocatedQuantity>
+	<EquipmentStartDateTime>2022-07-11</EquipmentStartDateTime>
+	<EquipmentEndDateTime>2022-07-20</EquipmentEndDateTime>
+</EquipmentDetails>
+</Equipments>

@@ -1,0 +1,128 @@
+xquery version "1.0-ml";
+for $doc in fn:collection("Equipments")//Equipments
+return $doc/EquipmentDetails[EquipmentType eq "Rollers"]
+
+------------------------------------------------------------------
+
+Returned sequence of 11 items in 0.5463 ms. (+0.1335 ms. compared to previous run)
+element as 
+XML
+<EquipmentDetails>
+<EquipmentType>Rollers</EquipmentType>
+<Status>New</Status>
+<Quantity>500</Quantity>
+<Duration>40Hrs</Duration>
+<AllocatedQuantity>200</AllocatedQuantity>
+<EquipmentStartDateTime>2022-08-10</EquipmentStartDateTime>
+<EquipmentEndDateTime>2022-08-20</EquipmentEndDateTime>
+</EquipmentDetails>
+element as 
+XML
+<EquipmentDetails>
+<EquipmentType>Rollers</EquipmentType>
+<Status>New</Status>
+<Quantity>450</Quantity>
+<Duration>35Hrs</Duration>
+<AllocatedQuantity>350</AllocatedQuantity>
+<EquipmentStartDateTime>2022-07-22</EquipmentStartDateTime>
+<EquipmentEndDateTime>2022-07-30</EquipmentEndDateTime>
+</EquipmentDetails>
+element as 
+XML
+<EquipmentDetails>
+<EquipmentType>Rollers</EquipmentType>
+<Status>Allocated</Status>
+<Quantity>420</Quantity>
+<Duration>36Hrs</Duration>
+<AllocatedQuantity>310</AllocatedQuantity>
+<EquipmentStartDateTime>2022-07-16</EquipmentStartDateTime>
+<EquipmentEndDateTime>2022-07-24</EquipmentEndDateTime>
+</EquipmentDetails>
+element as 
+XML
+<EquipmentDetails>
+<EquipmentType>Rollers</EquipmentType>
+<Status>New</Status>
+<Quantity>460</Quantity>
+<Duration>50Hrs</Duration>
+<AllocatedQuantity>250</AllocatedQuantity>
+<EquipmentStartDateTime>2022-07-14</EquipmentStartDateTime>
+<EquipmentEndDateTime>2022-07-22</EquipmentEndDateTime>
+</EquipmentDetails>
+element as 
+XML
+<EquipmentDetails>
+<EquipmentType>Rollers</EquipmentType>
+<Status>New</Status>
+<Quantity>610</Quantity>
+<Duration>55Hrs</Duration>
+<AllocatedQuantity>385</AllocatedQuantity>
+<EquipmentStartDateTime>2022-07-15</EquipmentStartDateTime>
+<EquipmentEndDateTime>2022-07-26</EquipmentEndDateTime>
+</EquipmentDetails>
+element as 
+XML
+<EquipmentDetails>
+<EquipmentType>Rollers</EquipmentType>
+<Status>New</Status>
+<Quantity>600</Quantity>
+<Duration>45Hrs</Duration>
+<AllocatedQuantity>300</AllocatedQuantity>
+<EquipmentStartDateTime>2022-08-15</EquipmentStartDateTime>
+<EquipmentEndDateTime>2022-08-25</EquipmentEndDateTime>
+</EquipmentDetails>
+element as 
+XML
+<EquipmentDetails>
+<EquipmentType>Rollers</EquipmentType>
+<Status>Allocated</Status>
+<Quantity>390</Quantity>
+<Duration>40Hrs</Duration>
+<AllocatedQuantity>235</AllocatedQuantity>
+<EquipmentStartDateTime>2022-08-02</EquipmentStartDateTime>
+<EquipmentEndDateTime>2022-08-14</EquipmentEndDateTime>
+</EquipmentDetails>
+element as 
+XML
+<EquipmentDetails>
+<EquipmentType>Rollers</EquipmentType>
+<Status>New</Status>
+<Quantity>475</Quantity>
+<Duration>50Hrs</Duration>
+<AllocatedQuantity>290</AllocatedQuantity>
+<EquipmentStartDateTime>2022-07-13</EquipmentStartDateTime>
+<EquipmentEndDateTime>2022-07-25</EquipmentEndDateTime>
+</EquipmentDetails>
+element as 
+XML
+<EquipmentDetails>
+<EquipmentType>Rollers</EquipmentType>
+<Status>Allocated</Status>
+<Quantity>410</Quantity>
+<Duration>40Hrs</Duration>
+<AllocatedQuantity>250</AllocatedQuantity>
+<EquipmentStartDateTime>2022-07-13</EquipmentStartDateTime>
+<EquipmentEndDateTime>2022-07-24</EquipmentEndDateTime>
+</EquipmentDetails>
+element as 
+XML
+<EquipmentDetails>
+<EquipmentType>Rollers</EquipmentType>
+<Status>Allocated</Status>
+<Quantity>500</Quantity>
+<Duration>45Hrs</Duration>
+<AllocatedQuantity>290</AllocatedQuantity>
+<EquipmentStartDateTime>2022-07-27</EquipmentStartDateTime>
+<EquipmentEndDateTime>2022-08-10</EquipmentEndDateTime>
+</EquipmentDetails>
+element as 
+XML
+<EquipmentDetails>
+<EquipmentType>Rollers</EquipmentType>
+<Status>Available</Status>
+<Quantity>430</Quantity>
+<Duration>42Hrs</Duration>
+<AllocatedQuantity>260</AllocatedQuantity>
+<EquipmentStartDateTime>2022-07-23</EquipmentStartDateTime>
+<EquipmentEndDateTime>2022-08-02</EquipmentEndDateTime>
+</EquipmentDetails>

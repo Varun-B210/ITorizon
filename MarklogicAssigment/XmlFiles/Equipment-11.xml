@@ -1,0 +1,23 @@
+<?xml version ="1.0"?>
+<Equipments>
+<Company>WNDSR</Company>
+<BusinessUnit>WNDSR-102</BusinessUnit>
+<EquipmentDetails>
+	<EquipmentType>Scrappers</EquipmentType>
+	<Status>Available</Status>
+	<Quantity>460</Quantity>
+	<Duration>38Hrs</Duration>
+	<AllocatedQuantity>280</AllocatedQuantity>
+	<EquipmentStartDateTime>2022-07-10</EquipmentStartDateTime>
+	<EquipmentEndDateTime>2022-07-23</EquipmentEndDateTime>
+</EquipmentDetails>
+<EquipmentDetails>
+	<EquipmentType>Rollers</EquipmentType>
+	<Status>Allocated</Status>
+	<Quantity>420</Quantity>
+	<Duration>36Hrs</Duration>
+	<AllocatedQuantity>310</AllocatedQuantity>
+	<EquipmentStartDateTime>2022-07-16</EquipmentStartDateTime>
+	<EquipmentEndDateTime>2022-07-24</EquipmentEndDateTime>
+</EquipmentDetails>
+</Equipments>

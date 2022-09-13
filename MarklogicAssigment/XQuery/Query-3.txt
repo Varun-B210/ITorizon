@@ -1,0 +1,51 @@
+xquery version "1.0-ml";
+for $doc in fn:collection("Equipments")/Equipments[Company eq "WNDSR"]/EquipmentDetails
+
+return
+<EquipmentType>{$doc/EquipmentType}{$doc/AllocatedQuantity}</EquipmentType>
+
+----------------------------------------------------------------------------------------
+
+Returned sequence of 7 items in 27.0328 ms. (+14.3873 ms. compared to previous run)
+element as 
+XML
+<EquipmentType>
+<EquipmentType>Rollers</EquipmentType>
+<AllocatedQuantity>200</AllocatedQuantity>
+</EquipmentType>
+element as 
+XML
+<EquipmentType>
+<EquipmentType>Excavators</EquipmentType>
+<AllocatedQuantity>185</AllocatedQuantity>
+</EquipmentType>
+element as 
+XML
+<EquipmentType>
+<EquipmentType>Scrappers</EquipmentType>
+<AllocatedQuantity>280</AllocatedQuantity>
+</EquipmentType>
+element as 
+XML
+<EquipmentType>
+<EquipmentType>Rollers</EquipmentType>
+<AllocatedQuantity>310</AllocatedQuantity>
+</EquipmentType>
+element as 
+XML
+<EquipmentType>
+<EquipmentType>Excavators</EquipmentType>
+<AllocatedQuantity>305</AllocatedQuantity>
+</EquipmentType>
+element as 
+XML
+<EquipmentType>
+<EquipmentType>Rollers</EquipmentType>
+<AllocatedQuantity>250</AllocatedQuantity>
+</EquipmentType>
+element as 
+XML
+<EquipmentType>
+<EquipmentType>Scrappers</EquipmentType>
+<AllocatedQuantity>230</AllocatedQuantity>
+</EquipmentType>
