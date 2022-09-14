@@ -1,0 +1,23 @@
+<?xml version ="1.0"?>
+<Equipments>
+<Company>TCOMP</Company>
+<BusinessUnit>TCOMP-303</BusinessUnit>
+<EquipmentDetails>
+	<EquipmentType>Excavators</EquipmentType>
+	<Status>Available</Status>
+	<Quantity>550</Quantity>
+	<Duration>50Hrs</Duration>
+	<AllocatedQuantity>380</AllocatedQuantity>
+	<EquipmentStartDateTime>2022-08-07T10:30:30</EquipmentStartDateTime>
+	<EquipmentEndDateTime>2022-08-19T10:30:30</EquipmentEndDateTime>
+</EquipmentDetails>
+<EquipmentDetails>
+	<EquipmentType>Rollers</EquipmentType>
+	<Status>Allocated</Status>
+	<Quantity>500</Quantity>
+	<Duration>45Hrs</Duration>
+	<AllocatedQuantity>290</AllocatedQuantity>
+	<EquipmentStartDateTime>2022-07-27T10:30:30</EquipmentStartDateTime>
+	<EquipmentEndDateTime>2022-08-10T10:30:30</EquipmentEndDateTime>
+</EquipmentDetails>
+</Equipments>

@@ -1,0 +1,32 @@
+<?xml version ="1.0"?>
+<Equipments>
+<Company>NORDM</Company>
+<BusinessUnit>NORDM-403</BusinessUnit>
+<EquipmentDetails>
+	<EquipmentType>Scrappers</EquipmentType>
+	<Status>Allocated</Status>
+	<Quantity>350</Quantity>
+	<Duration>40Hrs</Duration>
+	<AllocatedQuantity>175</AllocatedQuantity>
+	<EquipmentStartDateTime>2022-08-17T10:30:30</EquipmentStartDateTime>
+	<EquipmentEndDateTime>2022-08-25T10:30:30</EquipmentEndDateTime>
+</EquipmentDetails>
+<EquipmentDetails>
+	<EquipmentType>Rollers</EquipmentType>
+	<Status>Available</Status>
+	<Quantity>430</Quantity>
+	<Duration>42Hrs</Duration>
+	<AllocatedQuantity>260</AllocatedQuantity>
+	<EquipmentStartDateTime>2022-07-23T10:30:30</EquipmentStartDateTime>
+	<EquipmentEndDateTime>2022-08-02T10:30:30</EquipmentEndDateTime>
+</EquipmentDetails>
+<EquipmentDetails>
+	<EquipmentType>Excavators</EquipmentType>
+	<Status>Available</Status>
+	<Quantity>390</Quantity>
+	<Duration>35Hrs</Duration>
+	<AllocatedQuantity>190</AllocatedQuantity>
+	<EquipmentStartDateTime>2022-08-04T10:30:30</EquipmentStartDateTime>
+	<EquipmentEndDateTime>2022-08-12T10:30:30</EquipmentEndDateTime>
+</EquipmentDetails>
+</Equipments>
